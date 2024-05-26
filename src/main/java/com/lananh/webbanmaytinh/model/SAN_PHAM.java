@@ -22,4 +22,7 @@ public class SAN_PHAM {
     @ManyToOne
     @JoinColumn(name = "LOAI_ID")
     private LOAI_SP loaisp;
+
+    private String MO_TA;
+    private String GIA_CA;
 }

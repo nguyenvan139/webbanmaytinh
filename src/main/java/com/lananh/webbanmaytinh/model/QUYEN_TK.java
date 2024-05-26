@@ -16,7 +16,7 @@ import lombok.Setter;
 public class QUYEN_TK {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private int QUYEN_ID;
+
     private String TEN_QUYEN;
 }
